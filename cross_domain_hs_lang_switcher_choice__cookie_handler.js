@@ -1,4 +1,4 @@
-$('.lang_switcher_class a.lang_switcher_link').click(function() {
+$('.lang_switcher_class a.lang_switcher_link').click(function(event) {
     // Remember language link clicked
     var href = this.href;
 
